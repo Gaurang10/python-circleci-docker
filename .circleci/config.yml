@@ -23,6 +23,8 @@ jobs:
           command: |
             . helloworld/bin/activate
             python test_hello_world.py
+      - setup_remote_docker:
+          version: 19.03.13
       - run:
           name: Build and push Docker image
           command: |
