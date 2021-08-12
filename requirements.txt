@@ -1,2 +1,2 @@
 flask
-pyinstaller
+pyinstaller==3.5
